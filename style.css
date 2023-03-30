@@ -129,3 +129,16 @@ h1 {
         max-width: 600px;
     }
 }
+
+/* probando */
+.probando {
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
+background-color: #8ada00;
+color: #000;
+text-align: right;
+font-weight: 500;
+padding-right: 1.5rem;
+padding-left: 1.5rem;
+}
