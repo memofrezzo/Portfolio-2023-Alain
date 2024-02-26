@@ -88,34 +88,40 @@ h1 {
     
 }
 
-.hero-principal h2 {
-    font-size: 1.5rem;
-    color: #4b3e3e;
-    font-family: 'EB Garamond', serif;
-}
-
-.hero-imagen-perfil {
-    width: 250px;
-    border-radius: 10%;
-    margin: 5px;
-}
 /* Section hero 
 (Sección principal)*/
+/* Seccion Hero */
+
 .hero {
-    background-color:rgb(252, 247, 230);
-    min-height: 450px;
-    text-align: center;
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+
+.hero-imagen-desarrollador {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
 }
 
 /* Sobre mi */
 .sobre-mi { 
-    height: 600px;
+    height: 515px;
     padding: 10px;
     text-align: center;
 }
 
 .sobre-mi .contenedor .seccion-texto{
-    max-width: 600px;
+    max-width: 515px;
     text-align: justify;
 }
 
@@ -329,8 +335,8 @@ padding-left: 1.5rem;
 
   @media screen and (min-width: 700px) {
     .hero-inferior-imagen {
-        max-width: 600px;
+      max-width: 600px;
     }
-}
+  }
 
   
